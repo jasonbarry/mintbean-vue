@@ -5,6 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
+    "predeploy": "yarn build",
+    "deploy": "yarn featurepeek",
     "lint": "vue-cli-service lint",
     "start": "npm run serve"
   },
